@@ -1,5 +1,5 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Deploy Docify Hugo Pages to Github sites
 
 on:
   # Runs on pushes targeting the default branch
@@ -57,6 +57,7 @@ jobs:
           hugo \
             --gc --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+        working-directory: ./docify
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
