@@ -1,6 +1,7 @@
 baseURL: https://example.org/docify/
 languageCode: en-us
 title: Docify
+
 module:
   imports:
     - path: github.com/imfing/hextra
@@ -9,3 +10,21 @@ menu:
     - name: About
       pageRef: /about
       weight: 1
+    - name: Privacy
+      pageRef: /privacy
+      weight: 1
+    - name: Contact Us
+      pageRef: /privacy
+      weight: 1    
+
+params:
+  search:
+    enable: false
+  theme:
+    default: system
+    displayToggle: true
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: false
+    width: wide  
