@@ -14,7 +14,7 @@ menu:
       pageRef: /privacy
       weight: 1
     - name: Contact Us
-      pageRef: /privacy
+      pageRef: /contact
       weight: 1    
 
 params:
