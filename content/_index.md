@@ -1,6 +1,6 @@
 ---
 date: '2025-01-24T19:42:56+05:30'
-draft: true
+draft: false
 title: 'Docify'
 ---
 {{< cards cols="1">}}
